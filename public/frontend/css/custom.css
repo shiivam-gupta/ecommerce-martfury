@@ -1,0 +1,112 @@
+body {
+	overflow-x: hidden!important;
+}
+.discount-amount {
+    font-size: 14px!important;
+}
+.invoice-table-th{
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    background-color: #f4f4f4;
+}
+.ps-product .ps-product__price.sale del {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.ps-product--detail .ps-product__price del{
+    margin-left: 5px;
+}
+.coupon-code {
+    text-transform: uppercase;
+}
+.modal-close, .closeView {
+    cursor: pointer;
+}
+.cart-product {
+    padding-left: 0px!important;
+}
+.ps-block--site-features-2{
+	border: 1px solid #c9c9c9!important;
+    padding: 20px!important;
+}
+.ps-about-intro .ps-section__header h4 {
+    margin-bottom: 40px;
+}
+.ps-form--account {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.view-order{
+    background-color: #88aa00;
+    border-radius: 0;
+    height: 25px;
+    padding: 0 15px;
+    color: #ffffff;
+}
+.view-order i{
+	vertical-align: middle;
+    margin-right: 4px;
+    color: #fff;
+}
+
+.remove-btn {
+    display: inline-block;
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    border: 1px solid #fc0000;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #fc0000;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.remove-btn:hover {
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: transparent;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    cursor: pointer;
+    text-align: center;
+    color: #000;
+}
+.cnt_full
+{
+display:inline-block;
+margin:20px 10px;
+width:100%;
+text-align: center;
+}
+.cnt_min
+{
+display:table-cell;width:50%;margin:10px;height:80px;position:relative;padding:0 2%;
+}
+.cnt_min input[type="radio"]
+{
+width:100%;height:100%;position:absolute;top:0;left:0;opacity:0;
+}
+.selected_img
+{
+pointer-events: none;width:50%;height:100%;box-shadow: 1px 0px 8px 1px #888888;
+    border-radius: 10px;background: #fff;padding: 5px;
+}
+.cnt_min input[type="radio"]:checked ~ .selected_img
+{
+  border:solid 1px green;box-shadow:0px 1px 4px 0px #ccc;border-radius:5px;
+}
+@media(max-width: 767px)
+{
+	.header--sticky .ps-logo img {
+		height: 80px;
+		left: 40%;
+	}
+}

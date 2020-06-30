@@ -1,0 +1,94 @@
+.mainSection {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mainSection .AuthDivImg .authImg {
+    width: 400px;
+    height: 400px;
+}
+
+.btn {
+    background-color: orange;
+}
+
+.SignLoginText {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.authButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.authButtonDiv .authButton {
+    background-color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 2px 3px 10px #000;
+    text-decoration: none;
+}
+
+.authButtonDiv .LinkedinButton .lButton {
+    background-color: #3b5998;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.AuthForm {
+    max-width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    .AuthForm {
+        max-width: 90%;
+    }
+}
+
+.AuthForm .submit {
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* .googleButton {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .googleButton .LinkedinButton .gButton {
+        background-color: #3b5998;
+        color: #fff;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 15px;
+    } */

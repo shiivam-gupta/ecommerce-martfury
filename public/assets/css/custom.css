@@ -1,0 +1,52 @@
+body, .app-sidebar ul li a {
+  color: #000;
+}
+body *::-webkit-scrollbar {
+  height: 12px;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  overflow: auto;
+}
+input[type="color"] {
+  height: 38px;
+}
+.card-title {
+  font-weight: 800;
+}
+.div-scroll {
+  height: 80vh;
+  overflow: hidden auto;
+}
+.app-content .side-app {
+  margin-bottom: 75px;
+}
+._mCS_1 .mCSB_dragger .mCSB_dragger_bar{ background-color: #ff685c; }
+.mCSB_dragger:hover{ background-color: #ff685c; }
+
+#mCSB_1_scrollbar_vertical .mCSB_dragger{ height: 100px; }
+
+.mCSB_outside + .mCSB_scrollTools {
+  right: -17px;
+}
+.table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  font-weight: 600;
+  -webkit-transition: all .3s ease;
+  color: #000;
+}
+.panel-title .list-group-item.active {
+  color: #000;
+  font-weight: 700;
+}
+.header-credit {
+  background: #ff5b6b;
+  min-width: 100px;
+}
+.header-credit .text-dark {
+  color: #FFF!important;
+}
+.divider {
+  border-bottom: 1px solid #dadada;
+  margin: 13px 0;
+}
